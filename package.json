@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "./packages/main",
+      "./packages/home",
+      "./packages/about",
+      "./packages/common"
+    ]
+  },
+  "scripts": {
+    "main": "yarn workspace main dev"
+  }
+}
