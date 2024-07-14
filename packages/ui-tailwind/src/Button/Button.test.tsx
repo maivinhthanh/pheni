@@ -10,7 +10,11 @@ describe('packages', () => {
         const onClick = jest.fn();
         const btnContent = 'Click Me';
 
-        render(<Button onClick={onClick}>{btnContent}</Button>);
+        render(
+          <Button onClick={onClick} variant={'outlined'} color={'primary'} size={'small'}>
+            {btnContent}
+          </Button>,
+        );
         expect(screen.getByRole('button', { name: btnContent })).toBeInTheDocument();
         expect(onClick).not.toBeCalled();
       });
@@ -19,7 +23,11 @@ describe('packages', () => {
         const onClick = jest.fn();
         const btnContent = 'Click Me';
 
-        render(<Button onClick={onClick}>{btnContent}</Button>);
+        render(
+          <Button onClick={onClick} variant={'outlined'} color={'primary'} size={'small'}>
+            {btnContent}
+          </Button>,
+        );
 
         const button = screen.getByRole('button', { name: btnContent });
         await userEvent.click(button);

@@ -113,28 +113,3 @@ Monorepo features and conventions:
 [typescript-url]: https://github.com/microsoft/TypeScript
 [semantic-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-url]: https://github.com/semantic-release/semantic-release
-
-<!-- Deployments  App -->
-
-[deploy-app-prod-badge]: https://img.shields.io/badge/App-prod-blue?logo=netlify&logoColor=white
-[deploy-app-prod-url]: https://turbo-app-prod.netlify.app/
-[deploy-app-stage-badge]: https://img.shields.io/badge/App-stage-blue?logo=netlify&logoColor=white
-[deploy-app-stage-url]: https://turbo-app-stage.netlify.app/
-[deploy-app-storybook-badge]: https://img.shields.io/badge/App-storybook-blue?logo=storybook&logoColor=white
-[deploy-app-storybook-url]: https://turbo-app-storybook.netlify.app/
-
-<!-- Deployments  Website -->
-
-[deploy-website-prod-badge]: https://img.shields.io/badge/Website-prod-blue?logo=netlify&logoColor=white
-[deploy-website-prod-url]: https://turbo-website-prod.netlify.app/
-[deploy-website-stage-badge]: https://img.shields.io/badge/Website-stage-blue?logo=netlify&logoColor=white
-[deploy-website-stage-url]: https://turbo-website-stage.netlify.app/
-[deploy-website-storybook-badge]: https://img.shields.io/badge/Website-storybook-blue?logo=storybook&logoColor=white
-[deploy-website-storybook-url]: https://turbo-website-storybook.netlify.app/
-
-<!-- Deployments  UI -->
-
-[deploy-ui-prod-badge]: https://img.shields.io/badge/UI%20(shared%20lib)-prod-blue?logo=storybook&logoColor=white
-[deploy-ui-prod-url]: https://turbo-ui-prod.netlify.app/
-[deploy-ui-stage-badge]: https://img.shields.io/badge/UI%20(shared%20lib)-stage-blue?logo=storybook&logoColor=white
-[deploy-ui-stage-url]: https://turbo-ui-stage.netlify.app/

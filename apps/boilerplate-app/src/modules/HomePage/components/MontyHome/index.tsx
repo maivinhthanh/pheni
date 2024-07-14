@@ -56,15 +56,33 @@ export const MontyHome = ({ title, isTiltEnabled }: MontyHomeProps) => {
           <div className="animate-text-appear text-sm text-blue-500 ">{message}</div>
         ) : (
           <div className="my-2 flex justify-between">
-            {openDoorNo === 1 ? ' 🐐 ' : <Button onClick={() => handleMontyHomeSelected(1)}>Home 1</Button>}
+            {openDoorNo === 1 ? (
+              ' 🐐 '
+            ) : (
+              <Button onClick={() => handleMontyHomeSelected(1)} variant={'outlined'} color={'primary'} size={'small'}>
+                Home 1
+              </Button>
+            )}
             {openDoorNo === 2 ? (
               ' 🐐 '
             ) : (
-              <Button className="mx-3" onClick={() => handleMontyHomeSelected(2)}>
+              <Button
+                className="mx-3"
+                onClick={() => handleMontyHomeSelected(2)}
+                variant={'outlined'}
+                color={'primary'}
+                size={'small'}
+              >
                 Home 2
               </Button>
             )}
-            {openDoorNo === 3 ? ' 🐐 ' : <Button onClick={() => handleMontyHomeSelected(3)}>Home 3</Button>}
+            {openDoorNo === 3 ? (
+              ' 🐐 '
+            ) : (
+              <Button onClick={() => handleMontyHomeSelected(3)} variant={'outlined'} color={'primary'} size={'small'}>
+                Home 3
+              </Button>
+            )}
           </div>
         )}
       </div>

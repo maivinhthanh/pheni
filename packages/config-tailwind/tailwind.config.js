@@ -5,10 +5,7 @@ module.exports = {
 
   theme: {
     extend: {
-      colors: {
-        brandBlue: '#243c5a',
-        brandGreen: '#449e48',
-      },
+      colors: {},
 
       keyframes: {
         'text-appear': {
@@ -21,6 +18,28 @@ module.exports = {
       },
     },
   },
+  safelist: [
+    'border-red-600',
+    'bg-red-600',
+    'hover:bg-red-300',
+    'border-sky-600',
+    'bg-sky-600',
+    'hover:bg-sky-300',
+    'border-green-600',
+    'bg-green-600',
+    'hover:bg-green-300',
+    'border-amber-600',
+    'bg-amber-600',
+    'hover:bg-amber-300',
+    'border-gray-600',
+    'bg-gray-600',
+    'hover:bg-gray-300',
+    'text-red-700',
+    'text-sky-700',
+    'text-green-700',
+    'text-amber-700',
+    'text-gray-700',
+  ],
 
   plugins: [],
 };
